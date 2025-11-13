@@ -2,12 +2,13 @@
 
 int main()
 {
-    int n=0;
-    int sum;
-    scanf("%d", &n);
-    sum = n%10; 
-    sum *= (n/10)%10; 
-    sum *= (n/100)%10; 
-    printf("%d\n",sum);
-    return 0;
+	int a = 0;
+	int b = 0;
+	scanf("%d%d", &a, &b);
+	int c =0;
+	c = a-b;
+	printf("%d\n", c);
+	
+	return 0;
 }
+
